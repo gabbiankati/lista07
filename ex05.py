@@ -13,6 +13,6 @@ for i in range(10):
     else:
         print('Erroooooooouuuu! Tenta de novo, eltão')
 
-if acertou == False:
+if not acertou:
     print(f'O número sorteado foi {sorteio}')
 
